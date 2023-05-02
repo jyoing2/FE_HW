@@ -1,0 +1,111 @@
+.container {
+    width: 650px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo2 {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+}
+
+.logo3 {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    display: flex;
+    font-size: 40px;
+    color: white;
+    justify-content: space-around;
+}
+
+.check2{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.check3{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    display: flex;
+    font-size: 40px;
+    color: white;
+    justify-content: end;
+    margin: 30px;
+}
+
+.item {
+    width: 100%;
+}
+
+.item:nth-child(1) {
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:nth-child(2) {
+    height: 5%;
+    display: flex;
+}
+
+.item:nth-child(3) {
+    height:70%;
+    display: flex;
+}
+
+.item:nth-child(4) {
+    height:5%;
+    display: flex;
+    
+}
+
+.item:nth-child(5) {
+    height:5%;
+    display: flex;
+}
+
+.item:nth-child(6) {
+    height:10%;
+    display: flex;
+}
+
+img{
+    object-fit: cover;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    font-size: 40px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
